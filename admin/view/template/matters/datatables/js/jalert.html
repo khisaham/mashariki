@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <script type="text/javascript" src="jquery.js" ></script>
+        <script type="text/javascript" src="jquery.jalert.js" ></script>
+        <link href="jalert.css" rel="stylesheet" type="text/css" media="screen" />
+        <script type="text/javascript"></script>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>JSP Page</title>
+        <script>
+        function hello()
+        {
+           jAlert('Price should be blocks of 10 cents', 'FAILED', );
+        }
+        </script>
+    </head>
+    <body>
+        <form name="accounts" method="POST" action="test.jsp">
+            <input type="button" name="clientAccount" value="click" onclick=hello()>
+        </form>
+    </body>
+</html>

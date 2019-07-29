@@ -1,0 +1,36 @@
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #eee;
+}
+
+.form-recover {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-recover .form-recover-heading {
+  margin-bottom: 10px;
+}
+
+.form-recover .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-recover .form-control:focus {
+  z-index: 2;
+}
+.form-recover input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-recover button{
+  margin-top:10px;
+}
